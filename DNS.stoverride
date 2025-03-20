@@ -69,9 +69,9 @@ dns:
     - tls://223.5.5.5:853
     - tls://223.6.6.6:853
   nameserver-policy:
-    "*.xgsdk.com": https://dns.alidns.com/dns-query#h3=true
-    "*.xoyocdn.com": https://dns.alidns.com/dns-query#h3=true
-    "*.seasungame.com": https://dns.alidns.com/dns-query#h3=true
-    "*.xoyo.com": https://dns.alidns.com/dns-query#h3=true
-    "*.wscdns.com": https://dns.alidns.com/dns-query#h3=true
-    "*.testplus.cn": https://dns.alidns.com/dns-query#h3=true
+    "+.xgsdk.com": https://dns.alidns.com/dns-query#h3=true
+    "+.xoyocdn.com": https://dns.alidns.com/dns-query#h3=true
+    "+.seasungame.com": https://dns.alidns.com/dns-query#h3=true
+    "+.xoyo.com": https://dns.alidns.com/dns-query#h3=true
+    "+.wscdns.com": https://dns.alidns.com/dns-query#h3=true
+    "+.testplus.cn": https://dns.alidns.com/dns-query#h3=true
